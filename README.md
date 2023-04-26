@@ -129,3 +129,14 @@ puis vérifie si cet entier est pair ou impair et affiche le résultat.
 Ces exercices devraient vous aider à vous familiariser avec la syntaxe de base de Python et à commencer à coder en Python.
 Les corrigés figurent dans le dossier ```corrigés/```, d'autres exercices et une suite sera rajoutée au fur et à mesure deu temps.
 Essayez de comprendre ce que veut dire chaque chose pour ne pas être perdu !
+
+# Sources
+````
+documentaion Python :
+https://www.python.org/
+https://www.python.org/doc/
+Documentation pip (packet manager)
+https://pypi.org/project/pip/
+PyCharm Community :
+https://www.jetbrains.com/edu-products/download/other-PCE.html
+````
