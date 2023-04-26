@@ -139,4 +139,6 @@ Documentation pip (packet manager)
 https://pypi.org/project/pip/
 PyCharm Community :
 https://www.jetbrains.com/edu-products/download/other-PCE.html
+installation Git:
+https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git
 ````
