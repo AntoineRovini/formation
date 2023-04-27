@@ -124,6 +124,150 @@ puis vérifie si cet entier est pair ou impair et affiche le résultat.
 ### Exercice 5 : Calcul de la somme des entiers
 Écrivez un programme Python qui demande à l'utilisateur de saisir un entier, puis calcule la somme de tous les entiers de 1 à cet entier et affiche le résultat.
 
+### Exercice 6 : Calcul de la moyenne
+
+Écrivez un programme Python qui prend une liste de nombres en entrée et calcule leur moyenne.
+Voici un exemple de code pour vous aider à démarrer :
+````python
+# Demander à l'utilisateur d'entrer une liste de nombres séparés par des virgules
+numbers = input("Entrez une liste de nombres séparés par des virgules: ")
+
+# Convertir la chaîne de caractères en une liste de nombres
+numbers_list = [int(x) for x in numbers.split(",")]
+
+# Calculer la moyenne
+average = sum(numbers_list) / len(numbers_list)
+
+# Afficher la moyenne
+print("La moyenne est :", average)
+````
+
+### Exercice 7 : Vérification de la validité d'un mot de passe
+
+Écrivez un programme Python qui demande à l'utilisateur de saisir un mot de passe et vérifie s'il est valide.
+Un mot de passe est considéré comme valide s'il remplit les conditions suivantes :
+- Avoir une longueur minimale de 8 caractères,
+- Contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (par exemple, !, @, #, $)
+
+Voici un exemple de code pour vous aider à démarrer :
+
+````python
+import re
+
+# Demander à l'utilisateur de saisir un mot de passe
+password = input("Entrez votre mot de passe: ")
+
+# Définir les conditions pour un mot de passe valide
+pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+
+# Vérifier si le mot de passe est valide
+if re.match(pattern, password):
+    print("Le mot de passe est valide")
+else:
+    print("Le mot de passe n'est pas valide")
+````
+
+### Exercice 8 : Jeu de devinette de nombre
+
+Écrivez un programme Python qui génère un nombre aléatoire entre 1 et 100 et demande à l'utilisateur de deviner le nombre.
+Si l'utilisateur devine correctement, le programme affiche "Bravo !" et s'arrête.
+Sinon, le programme donne un indice (plus grand ou plus petit) et demande à l'utilisateur de deviner à nouveau jusqu'à ce qu'il trouve le bon nombre.
+Voici un exemple de code pour vous aider à démarrer :
+
+
+````python
+import random
+
+# Générer un nombre aléatoire entre 1 et 100
+number = random.randint(1, 100)
+
+# Demander à l'utilisateur de deviner le nombre
+guess = int(input("Devinez un nombre entre 1 et 100: "))
+
+# Tant que l'utilisateur n'a pas deviné le nombre, donner des indices et demander à nouveau
+while guess != number:
+    if guess < number:
+        print("Le nombre est plus grand")
+    else:
+        print("Le nombre est plus petit")
+    guess = int(input("Essayez à nouveau: "))
+
+# Si l'utilisateur a deviné correctement, afficher "Bravo!"
+print("Bravo!")
+````
+
+### Exercice 9 : Jeu de devinette de mot
+Écrivez un programme Python qui choisit un mot aléatoire dans une liste prédéfinie et demande à l'utilisateur de deviner le mot.
+Si l'utilisateur devine correctement, le programme affiche "Bravo !" et s'arrête. Sinon, le programme donne un indice (par exemple, la première lettre) et demande à l'utilisateur de deviner à nouveau jusqu'à ce qu'il trouve le bon mot.
+Voici un exemple de code pour vous aider à démarrer :
+
+````python
+import random
+
+# Définir une liste de mots
+words = ["chat", "chien", "maison", "voiture", "ordinateur"]
+
+# Choisir un mot aléatoire dans la liste
+word = random.choice(words)
+
+# Demander à l'utilisateur de deviner le mot
+guess = input("Devinez un mot: ")
+
+# Tant que l'utilisateur n'a pas deviné le mot, donner des indices et demander à nouveau
+while guess != word:
+    if guess[0] == word[0]:
+        print("La première lettre est correcte.")
+    else:
+        print("La première lettre est incorrecte.")
+    guess = input("Essayez à nouveau: ")
+
+# Si l'utilisateur a deviné correctement, afficher "Bravo!"
+print("Bravo!")
+````
+
+### Exercice 10 : Création d'un gestionnaire de tâches
+Écrivez un programme Python qui permet à l'utilisateur de créer une liste de tâches et de les gérer.
+Le programme doit permettre à l'utilisateur de :
+- Ajouter une tâche
+- Afficher toutes les tâches
+- Supprimer une tâche
+- Marquer une tâche comme terminée
+
+Voici un exemple de code pour vous aider à démarrer :
+````python
+tasks = []
+
+while True:
+    print("Que voulez-vous faire?")
+    print("1. Ajouter une tâche")
+    print("2. Afficher toutes les tâches")
+    print("3. Supprimer une tâche")
+    print("4. Marquer une tâche comme terminée")
+    print("5. Quitter")
+
+    choice = input()
+
+    if choice == "1":
+        task = input("Entrez une tâche: ")
+        tasks.append(task)
+        print("Tâche ajoutée.")
+    elif choice == "2":
+        print("Voici toutes les tâches:")
+        for i in range(len(tasks)):
+            print(str(i+1) + ". " + tasks[i])
+    elif choice == "3":
+        index = int(input("Entrez l'indice de la tâche à supprimer: ")) - 1
+        del tasks[index]
+        print("Tâche supprimée.")
+    elif choice == "4":
+        index = int(input("Entrez l'indice de la tâche terminée: ")) - 1
+        tasks[index] = "[TERMINÉE] " + tasks[index]
+        print("Tâche marquée comme terminée.")
+    elif choice == "5":
+        break
+    else:
+        print("Choix invalide.")
+````
 
 
 Ces exercices devraient vous aider à vous familiariser avec la syntaxe de base de Python et à commencer à coder en Python.
