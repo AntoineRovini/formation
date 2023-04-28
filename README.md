@@ -23,7 +23,8 @@ et y est une variable qui stocke la chaîne de caractères "Hello, world!".
 
 ### Axe trois : les opérateurs
 
-Les opérateurs sont utilisés pour effectuer des opérations sur des variables. Voici quelques-uns des opérateurs les plus couramment utilisés en Python :
+Les opérateurs sont utilisés pour effectuer des opérations sur des variables. Voici quelques-uns des opérateurs les plus
+couramment utilisés en Python :
 ````
 +:addition
 -: soustraction
@@ -83,7 +84,8 @@ else:
     print("x est négatif ou nul")
 ````
 
-Dans cet exemple, nous avons utilisé la structure de contrôle if pour afficher un message différent selon que la variable x est positive ou négative.
+Dans cet exemple, nous avons utilisé la structure de contrôle if pour afficher un message différent selon que la
+variable x est positive ou négative.
 
 
 # Partie 2 : Exercices de calculs en Python
@@ -122,7 +124,8 @@ puis calcule et affiche leur moyenne.
 puis vérifie si cet entier est pair ou impair et affiche le résultat.
 
 ### Exercice 5 : Calcul de la somme des entiers
-Écrivez un programme Python qui demande à l'utilisateur de saisir un entier, puis calcule la somme de tous les entiers de 1 à cet entier et affiche le résultat.
+Écrivez un programme Python qui demande à l'utilisateur de saisir un entier, puis calcule la somme de tous les entiers
+de 1 à cet entier et affiche le résultat.
 
 ### Exercice 6 : Calcul de la moyenne
 
@@ -133,17 +136,22 @@ puis vérifie si cet entier est pair ou impair et affiche le résultat.
 Écrivez un programme Python qui demande à l'utilisateur de saisir un mot de passe et vérifie s'il est valide.
 Un mot de passe est considéré comme valide s'il remplit les conditions suivantes :
 - Avoir une longueur minimale de 8 caractères,
-- Contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (par exemple, !, @, #, $)
+- Contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (par exemple, !,
+@, #, $)
 
 ### Exercice 8 : Jeu de devinette de nombre
 
-Écrivez un programme Python qui génère un nombre aléatoire entre 1 et 100 et demande à l'utilisateur de deviner le nombre.
+Écrivez un programme Python qui génère un nombre aléatoire entre 1 et 100 et demande à l'utilisateur de deviner le
+nombre.
 Si l'utilisateur devine correctement, le programme affiche "Bravo !" et s'arrête.
-Sinon, le programme donne un indice (plus grand ou plus petit) et demande à l'utilisateur de deviner à nouveau jusqu'à ce qu'il trouve le bon nombre.
+Sinon, le programme donne un indice (plus grand ou plus petit) et demande à l'utilisateur de deviner à nouveau jusqu'à
+ce qu'il trouve le bon nombre.
 
 ### Exercice 9 : Jeu de devinette de mot
-Écrivez un programme Python qui choisit un mot aléatoire dans une liste prédéfinie et demande à l'utilisateur de deviner le mot.
-Si l'utilisateur devine correctement, le programme affiche "Bravo !" et s'arrête. Sinon, le programme donne un indice (par exemple, la première lettre) et demande à l'utilisateur de deviner à nouveau jusqu'à ce qu'il trouve le bon mot.
+Écrivez un programme Python qui choisit un mot aléatoire dans une liste prédéfinie et demande à l'utilisateur de deviner
+le mot.
+Si l'utilisateur devine correctement, le programme affiche "Bravo !" et s'arrête. Sinon, le programme donne un indice
+(par exemple, la première lettre) et demande à l'utilisateur de deviner à nouveau jusqu'à ce qu'il trouve le bon mot.
 Voici un exemple de code pour vous aider à démarrer :
 
 ### Exercice 10 : Création d'un gestionnaire de tâches
@@ -154,9 +162,35 @@ Le programme doit permettre à l'utilisateur de :
 - Supprimer une tâche
 - Marquer une tâche comme terminée
 
+### Exercice 11 : le fermier
+Cet exercice est plus complexe que ceux précédents et utilisent les connaissances théoriques acquises ainsi
+que de bonnes connaissances en mathématique. Il se peut que vous deviez utiliser l'algorithme de Gauss, des matrices ou
+tout algorithme qui pourrait vous être utile à résoudre le problème le plus efficacement possible.
 
-Ces exercices devraient vous aider à vous familiariser avec la syntaxe de base de Python et à commencer à coder en Python.
-Les corrigés figurent dans le dossier ```corrigés/```, d'autres exercices et une suite sera rajoutée au fur et à mesure deu temps.
+Un agriculteur cultive des céréales : de l'avoine, du blé, du maïs, de l'orge et du soja.
+Il utilise quatre types différents d'engrais (F1, F2, F3 et F4),
+dans les quantités suivantes (par tonne d'engrais pour produire une unité de céréales) :
+
+|        | F1  | F2  | F3  | F4  |
+|--------|-----|-----|-----|-----|
+| avoine | 1   | 1   | 2   | 0   |
+| blé    | 0   | 2   | 1   | 0   |
+| maïs   | 1   | 0   | 0   | 3   |
+| orge   | 0   | 1   | 1   | 1   |
+| soja   | 2   | 0   | 0   | 2   |
+
+En gardant à l'esprit qu'il dispose de quantités limitées d'engrais chaque année,
+l'agriculteur aimerait optimiser sa production en fonction des prix des céréales.
+Vous allez donc développer un programme qui prendra en paramètre les ressources en engrais et les prix de chaque type de
+céréale. Le programme affichera les quantités à produire, ainsi que la valeur totale de sa production.
+
+
+
+
+Ces exercices devraient vous aider à vous familiariser avec la syntaxe de base de Python et à commencer à coder en
+Python.
+Les corrigés figurent dans le dossier ```corrigés/```, d'autres exercices et une suite sera rajoutée au fur et à mesure
+du temps.
 Essayez de comprendre ce que veut dire chaque chose pour ne pas être perdu !
 
 # Sources
