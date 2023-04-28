@@ -56,6 +56,6 @@ print(f"Oat: {oat_qty} units at ${int(po)}/units")
 print(f"Wheat: {wheat_qty} units at ${int(pw)}/units")
 print(f"Corn: {corn_qty} units at ${int(pc)}/units")
 print(f"Barley: {barley_qty} units at ${int(pb)}/units")
-print(f"Oat: {soy_qty} units at ${int(ps)}/units\n")
+print(f"Soy: {soy_qty} units at ${int(ps)}/units\n")
 
 print(f"Total production value: ${production_value}")
