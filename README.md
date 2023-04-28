@@ -127,20 +127,6 @@ puis vérifie si cet entier est pair ou impair et affiche le résultat.
 ### Exercice 6 : Calcul de la moyenne
 
 Écrivez un programme Python qui prend une liste de nombres en entrée et calcule leur moyenne.
-Voici un exemple de code pour vous aider à démarrer :
-````python
-# Demander à l'utilisateur d'entrer une liste de nombres séparés par des virgules
-numbers = input("Entrez une liste de nombres séparés par des virgules: ")
-
-# Convertir la chaîne de caractères en une liste de nombres
-numbers_list = [int(x) for x in numbers.split(",")]
-
-# Calculer la moyenne
-average = sum(numbers_list) / len(numbers_list)
-
-# Afficher la moyenne
-print("La moyenne est :", average)
-````
 
 ### Exercice 7 : Vérification de la validité d'un mot de passe
 
@@ -148,24 +134,6 @@ print("La moyenne est :", average)
 Un mot de passe est considéré comme valide s'il remplit les conditions suivantes :
 - Avoir une longueur minimale de 8 caractères,
 - Contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (par exemple, !, @, #, $)
-
-Voici un exemple de code pour vous aider à démarrer :
-
-````python
-import re
-
-# Demander à l'utilisateur de saisir un mot de passe
-password = input("Entrez votre mot de passe: ")
-
-# Définir les conditions pour un mot de passe valide
-pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
-
-# Vérifier si le mot de passe est valide
-if re.match(pattern, password):
-    print("Le mot de passe est valide")
-else:
-    print("Le mot de passe n'est pas valide")
-````
 
 ### Exercice 8 : Jeu de devinette de nombre
 
