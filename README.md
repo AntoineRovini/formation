@@ -183,7 +183,9 @@ En gardant à l'esprit qu'il dispose de quantités limitées d'engrais chaque an
 l'agriculteur aimerait optimiser sa production en fonction des prix des céréales.
 Vous allez donc développer un programme qui prendra en paramètre les ressources en engrais et les prix de chaque type de
 céréale. Le programme affichera les quantités à produire, ainsi que la valeur totale de sa production.
+La sortie devrait ressember à ça :
 
+![img.png](img/img.png)
 
 
 
