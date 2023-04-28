@@ -1,6 +1,6 @@
 # Installer pip sur Windows
 
-Tout d'abord, téléchargez le script d'installation de pip en cliquant sur ce lien :
+Pour installer pip, téléchargez le script d'installation de pip en cliquant sur ce lien :
 https://bootstrap.pypa.io/get-pip.py.
 
 Ouvrez l'invite de commande Windows. Pour cela, appuyez sur la touche Windows + R, tapez "cmd" et appuyez sur Entrée.
