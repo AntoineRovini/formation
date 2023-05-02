@@ -237,7 +237,13 @@ Exercice 6 : <résultat>
 Ou ``<résultat>`` devra être le résultat trouvé par le programme de l'exercice en question. Vous pouvez réutiliser et
 modifier le code précédemment écrit pour pouvoir compléter cet exercice. L'utilisation des fonctions est préconisée pour
 plus de facilité ! 
-Une fois les résultats écrit dans le fichier, le programme lira le fichier et s'arrêtera là.
+Une fois les résultats écrit dans le fichier, le programme lira le fichier en sortie.
+
+
+### Exercice 15 : Copier le contenu d'un fichier
+Ecrivez un programme Python qui vous permettra de copier le contenu d'un fichier à l'autre. Vous devrez ouvrir le
+fichier en lecture, lire le contenu et l'écrire dans le nouveau fichier, puis fermer les deux fichiers. Une fois les
+deux fichiers fermés, vous devrez lire le contenu du second fichier.
 
 ----------      
 
