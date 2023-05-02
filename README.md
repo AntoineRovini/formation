@@ -141,6 +141,9 @@ Un mot de passe est considéré comme valide s'il remplit les conditions suivant
 - Avoir une longueur minimale de 8 caractères,
 - Contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (par exemple, !,
 @, #, $)
+- Pour vous aider, voici la ligne qui va définir la validité du mot de passe :
+``pattern = “^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$”``
+
 
 ### Exercice 8 : Jeu de devinette de nombre
 
