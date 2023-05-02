@@ -200,6 +200,31 @@ mot. Le programme doit ensuite afficher le contenu du fichier.
 
 Conseil : documentez vous sur open() et read().
 
+### Exercice 13 : Manipulation de fichier
+
+Ecrivez un programme Python qui vous permettra de créer, écrire et lire un fichier. Le fichier texte aura pour nom
+``"exercice_treize.txt"`` et sera dans le même répertoire que votre programme Python.
+Une fois qu'il sera créé, vous ajouterez trois phrases dedans, chacune à la ligne :
+- "Hello world!"
+- "exercice de la posterite!"
+- "Goodbye World!"
+
+Une fois ces phrases écrites, vous fermerez le fichier t le rouvrirez en mode lecture pour afficher le contenu écrit.
+
+Bonus : Utilisez la fonction "with" pour gérer la fermeture automatique du fichier après avoir fini de l'utiliser.
+
+Contraintes :
+
+Utilisez des fonctions prédéfinies pour manipuler les fichiers.
+Les phrases doivent être écrites dans l'ordre indiqué dans les instructions.
+La nouvelle ligne doit être créée en utilisant le caractère de retour à la ligne "\n".
+Le contenu du fichier doit être affiché en utilisant une boucle.
+Évitez d'utiliser des chemins d'accès absolus pour le fichier.
+
+
+
+----------
+
 
 Ces exercices devraient vous aider à vous familiariser avec la syntaxe de base de Python et à commencer à coder en
 Python.
