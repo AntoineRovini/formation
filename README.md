@@ -196,28 +196,9 @@ La sortie devrait ressember à ça :
 ### Exercice 12 : Ouvrir et lire un fichier texte
 
 Ecrivez un programme Python qui est capable d'ouvrir puis lire des mots et calcule le nombre de caractères de chaque
-mot. Le programme doit ensuite afficher le contenu du fichier, donc le mot et son nombre de caractères correspondant.
+mot. Le programme doit ensuite afficher le contenu du fichier.
 
-- Créez un fichier texte contenant une liste de mots séparés par des espaces.
-- Demandez à l'utilisateur de saisir le nom du fichier à lire.
-- Ouvrez le fichier et lisez son contenu en utilisant la méthode read() de l'objet de fichier.
-- Séparez les mots en utilisant la méthode split() de Python.
-- Parcourez chaque mot de la liste et calculez le nombre de caractères de chaque mot en utilisant la fonction len() de
-Python.
-- Affichez chaque mot et son nombre de caractères correspondant.
-
-Voici un exemple de fichier texte :
-````text
-chat chien oiseau lapin éléphant
-````
-Et voici un exemple de sortie
-`````text
-Mot: chat, Nombre de caractères: 4
-Mot: chien, Nombre de caractères: 5
-Mot: oiseau, Nombre de caractères: 6
-Mot: lapin, Nombre de caractères: 5
-Mot: éléphant, Nombre de caractères: 8
-`````
+Conseil : documentez vous sur open() et read().
 
 
 Ces exercices devraient vous aider à vous familiariser avec la syntaxe de base de Python et à commencer à coder en
