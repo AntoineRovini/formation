@@ -221,7 +221,23 @@ La nouvelle ligne doit être créée en utilisant le caractère de retour à la 
 Le contenu du fichier doit être affiché en utilisant une boucle.
 Évitez d'utiliser des chemins d'accès absolus pour le fichier.
 
+### Exercice 14 : Ecriture dans un fichier
 
+Ecrivez un programme Python qui vous permettra d'écrire dans un fichier les résultats obtenus dans les exercices 1 à 6.
+Voici un exemple du contenu que le fichier devra afficher : 
+````text
+Exercice 1 : <résultat>
+Exercice 2 : <résultat>
+Exercice 3 : <résultat>
+Exercice 4 : <résultat>
+Exercice 5 : <résultat>
+Exercice 6 : <résultat>
+````
+
+Ou ``<résultat>`` devra être le résultat trouvé par le programme de l'exercice en question. Vous pouvez réutiliser et
+modifier le code précédemment écrit pour pouvoir compléter cet exercice. L'utilisation des fonctions est préconisée pour
+plus de facilité ! 
+Une fois les résultats écrit dans le fichier, le programme lira le fichier et s'arrêtera là.
 
 ----------      
 
