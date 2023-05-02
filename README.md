@@ -80,8 +80,11 @@ Voici un exemple d'utilisation de la structure de contrôle if :
 x = 5
 if x > 0:
     print("x est positif")
+elif x == 0:
+    print("x est nul")
 else:
-    print("x est négatif ou nul")
+    print("x est négatif")
+    
 ````
 
 Dans cet exemple, nous avons utilisé la structure de contrôle if pour afficher un message différent selon que la
@@ -162,8 +165,8 @@ Le programme doit permettre à l'utilisateur de :
 - Supprimer une tâche
 - Marquer une tâche comme terminée
 
-### Exercice 11 : le fermier
-Cet exercice est plus complexe que ceux précédents et utilisent les connaissances théoriques acquises ainsi
+### Exercice 11 : Le fermier
+Cet exercice est plus complexe que les précédents et utilise les connaissances théoriques acquises ainsi
 que de bonnes connaissances en mathématique. Il se peut que vous deviez utiliser l'algorithme de Gauss, des matrices ou
 tout algorithme qui pourrait vous être utile à résoudre le problème le plus efficacement possible.
 
