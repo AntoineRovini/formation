@@ -223,7 +223,7 @@ Le contenu du fichier doit être affiché en utilisant une boucle.
 
 
 
-----------
+----------      
 
 
 Ces exercices devraient vous aider à vous familiariser avec la syntaxe de base de Python et à commencer à coder en
