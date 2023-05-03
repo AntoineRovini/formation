@@ -306,6 +306,17 @@ Astuces :
 - l'opérateur modulo peut vous aider à detmeriner si u nombre entier est un multiple de 3 ou 5.
 - l'utilisation d'un variable "total" peut vous aider à stocker la somme de tous ces nombres trouvés.
 
+
+### Exercice 18 : Inversion de chaine de caractères
+
+Ecrivez un programme Python qui prendra en entrée une chaine de caractères et la renverra en sortie, mais inversée.
+
+Exemple d'utilisation : 
+````text
+Entrez une phrase : Bonjour!
+Sortie : !ruojnoB
+````
+
 ----------      
 
 
