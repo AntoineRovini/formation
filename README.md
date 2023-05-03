@@ -245,6 +245,67 @@ Ecrivez un programme Python qui vous permettra de copier le contenu d'un fichier
 fichier en lecture, lire le contenu et l'écrire dans le nouveau fichier, puis fermer les deux fichiers. Une fois les
 deux fichiers fermés, vous devrez lire le contenu du second fichier.
 
+### Exercice 16 : Calcul et lecture d'un fichier CSV
+
+Pour cet exercice, vous aurez besoin de deux bibliotèques externes : csv et statistics. Si elles ne sont pas installées,
+référez-vous au tutoriel pip si vous ne savez pas comment les installer.
+
+Ecrivez un programme Python qui permettra à l'utilisateur de lire un fichier CSV et de choisir entre afficher ou
+effectuer un traitement sur les données. Le programme demandera à l'utilisateur de spécifier le nom du fichier CSV à
+lire. Après lui avoir fourni le nom du fichier, le programme propesera deu options : afficher les données ou effectuer
+un traitement.
+
+Si l'utilisateur choisit l'affichage des données, le programme affichera toutes les données du fichier CSV.
+
+Si l'utilisateur choisit d'effectuer un traitement, le programme doit lui demander de spécifier le numéro de la colonne
+sur laquelle effectuer le traitement et le type de traitement à effectuer. Les types de traitements possibles sont :
+calculer la somme, la moyenne, le minimum ou le maximum des valeurs de la colonne spécifiée. Le programme doit ensuite
+effectuer le traitement et afficher le résultat à l'utilisateur.
+
+
+Exemple de fichier SCV : 
+````text
+Nom,Prenom,Age,Note
+Dupont,Jean,25,12
+Durand,Marc,27,16
+Martin,Sophie,23,10
+...
+````
+Exemple d'utilisation du code : 
+````text
+Entrez le nom du fichier CSV : notes.csv
+Choisissez une option :
+1. Afficher les données
+2. Effectuer un traitement
+> 2
+Entrez le numéro de la colonne : 4
+Choisissez un type de traitement :
+1. Calculer la somme
+2. Calculer la moyenne
+3. Trouver la valeur minimale
+4. Trouver la valeur maximale
+> 2
+
+Moyenne des notes : 12.8
+
+````
+
+### Exercice 17 :  Multiples de 3 et 5
+
+Ecrivez un programme Python qui calcule la somme de tous les multiples de 3 et 5 en dessous d'un nombre entier donné. Le
+programme doit demander à l'utilisateur d'entrer un nombre entier, puis fera le calcul de la somme de tous les multiples
+de 3 et 5.
+
+Voici un exemple d'utilisation :
+````text
+Entrez un nombre entier : 20
+Somme des multiples de 3 et 5 en dessous de 20 : 78
+````
+Astuces :
+- la boucle for peut vous aider.
+- l'opérateur modulo peut vous aider à detmeriner si u nombre entier est un multiple de 3 ou 5.
+- l'utilisation d'un variable "total" peut vous aider à stocker la somme de tous ces nombres trouvés.
+
 ----------      
 
 
@@ -253,7 +314,7 @@ Python.
 Les corrigés figurent dans le dossier ```corrigés/```, d'autres exercices et une suite sera rajoutée au fur et à mesure
 du temps.
 Essayez de comprendre ce que veut dire chaque chose pour ne pas être perdu !
-
+    
 # Sources
 ````
 documentaion Python :
