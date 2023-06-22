@@ -317,6 +317,8 @@ Entrez une phrase : Bonjour!
 Sortie : !ruojnoB
 ````
 
+### Exercice 19 : 
+
 ----------      
 
 
